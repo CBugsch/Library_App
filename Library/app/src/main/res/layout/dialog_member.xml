@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="What would you like to do?" />
+
+    <Button
+        android:id="@+id/viewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Current Books" />
+
+    <Button
+        android:id="@+id/checkOutBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Out New Book" />
+
+    <Button
+        android:id="@+id/returnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return A Book" />
+
+    <Button
+        android:id="@+id/editMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Member Details" />
+
+    <Button
+        android:id="@+id/deleteMember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Member" />
+
+    <Button
+        android:id="@+id/cancelBttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+</LinearLayout>
